@@ -1,0 +1,26 @@
+---
+layout: layouts/facile-base.njk
+templateClass: tmpl-home
+---
+
+{# Most pages use this to display the navigation bar #}
+
+<div class="wrapper">
+  <div class="row">
+    <div class="col-sm-3">
+      <div class="card shadow">
+        <h6 class="card-header">
+          Contents
+        </h6>
+        {{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
+      </div>
+    </div>
+    <div class="col">
+      <div class="content">
+        {{ content | safe }}
+      </div>    
+    </div>
+  </div>
+</div>
+
+

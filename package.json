@@ -1,0 +1,32 @@
+{
+  "name": "Facile-Documentation",
+  "version": "0.0.1",
+  "description": "Documentation for Project Facile",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "NODE_ENV=production eleventy"
+  },
+  "dependencies": {
+    "eleventy-plugin-seo": "^0.5.2",
+    "luxon": "^3.5.0",
+    "@11ty/eleventy-navigation": "^0.3.5"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.1"
+  },
+  "engines": {
+    "node": "12"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/glitch-hello-eleventy"
+  },
+  "glitch": {
+    "projectType": "generated_static"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}

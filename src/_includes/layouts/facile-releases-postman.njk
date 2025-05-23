@@ -1,0 +1,20 @@
+---
+layout: layouts/facile.njk
+---
+
+{# Most pages use this to display the navigation bar #}
+
+<div class="wrapper">
+  <div class="row">
+    <div class="col">
+      <ul>
+      {%- for release in collections.postman -%}
+        <li><a href='{{ release.url }}'>{{ release.data.title }}</a> - {{ release.data.page.date | htmlDateString }}</li>
+        <hr>
+      {%- endfor -%}
+      </ul>
+    </div>
+  </div>
+</div>
+
+

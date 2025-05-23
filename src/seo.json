@@ -1,0 +1,7 @@
+{
+  "glitch-help-instructions": "For a custom domain, change the 'url' parameter from 'glitch-default' to your domain _without_ a traling slash, like 'https://www.example.com'",
+  "title": "Project Facile Documentation",
+  "description": "Documentation site for Project Facile",
+  "url": "https://docs.facile.pingidentity.cloud",
+  "image": "https://www.pingidentity.com/content/dam/ping-6-2-assets/topnav-json-configs/Ping-Logo-2.svg"
+}
