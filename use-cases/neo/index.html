@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    
+    
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Project Facile documentation" />
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="icon" href="https://www.pingidentity.com/etc.clientlibs/settings/wcm/designs/pic6/assets/resources/images/favicon-new.png">
+    <link rel="stylesheet" type="text/css" href="/public/facile.css" />
+    <title>Neo - Project Facile Documentation</title>
+
+<meta name="description" content="Documentation site for Project Facile">
+<meta name="robots" content="index,follow">
+<meta name="author" content="undefined">
+
+<link rel="canonical" href="https://docs.facile.pingidentity.cloud/use-cases/neo/">
+
+<meta property="og:title" content="Neo - Project Facile Documentation">
+<meta property="og:type" content="article">
+
+<meta property="og:url" content="https://docs.facile.pingidentity.cloud/use-cases/neo/">
+<meta property="og:description" content="Documentation site for Project Facile">
+<meta property="og:image" content="https://www.pingidentity.com/content/dam/ping-6-2-assets/topnav-json-configs/Ping-Logo-2.svg">
+
+<meta name="twitter:card" content="summary">
+
+<meta name="twitter:url" content="https://docs.facile.pingidentity.cloud/use-cases/neo/">
+<meta name="twitter:title" content="Neo - Project Facile Documentation">
+<meta name="twitter:description" content="Documentation site for Project Facile">
+<meta name="twitter:image" content="https://www.pingidentity.com/content/dam/ping-6-2-assets/topnav-json-configs/Ping-Logo-2.svg">
+
+
+  </head>
+  <body>
+  <main>
+    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
+      <img id='topBarLogo'
+        style="width:140px"
+        src="https://cdn.glitch.com/a766be66-dd8a-4fa9-adb0-382568f98cae%2Ffacile_logo.png?v=1630520846655"
+        alt="Project Facile Logo"
+      />
+      <span class="d-flex flex-row-reverse flex-fill fw-bold">Documentation - Neo</span>
+    </div>
+  
+    
+
+
+<div class="wrapper">
+  <div class="row">
+    <div class="col-sm-3">
+      <div class="card shadow">
+        <h6 class="card-header">
+          Contents
+        </h6>
+        <ul><li><a href="/Facile-Documentation/">Home</a></li>
+<li><a href="/Facile-Documentation/deployment/">Deployment</a><ul><li><a href="/Facile-Documentation/deployment/pingone/">PingOne Config</a></li>
+<li><a href="/Facile-Documentation/deployment/auto/">Automatic</a></li>
+<li><a href="/Facile-Documentation/deployment/bespoke/">Bespoke</a></li></ul></li>
+<li><a href="/Facile-Documentation/use-cases/">Use Cases</a><ul><li><a href="/Facile-Documentation/use-cases/access/">Access</a><ul><li><a href="/Facile-Documentation/use-cases/access/headers/">Headers</a></li>
+<li><a href="/Facile-Documentation/use-cases/access/spa/">Single Page App</a></li>
+<li><a href="/Facile-Documentation/use-cases/access/consent-mgmt/">Consent Management</a></li>
+<li><a href="/Facile-Documentation/use-cases/access/consent-enforce/">Consent Enforcement</a></li></ul></li>
+<li><a href="/Facile-Documentation/use-cases/authn/">Authentication</a><ul><li><a href="/Facile-Documentation/use-cases/authn/simple/">Simple</a></li>
+<li><a href="/Facile-Documentation/use-cases/authn/risk-mfa/">Risk \ MFA</a></li>
+<li><a href="/Facile-Documentation/use-cases/authn/passwordless/">Passwordless</a></li>
+<li><a href="/Facile-Documentation/use-cases/authn/id-verify/">ID Verification</a></li>
+<li><a href="/Facile-Documentation/use-cases/authn/authn-api/">Authentication API</a></li>
+<li><a href="/Facile-Documentation/use-cases/authn/orchestration/">Orchestration</a></li></ul></li>
+<li><a href="/Facile-Documentation/use-cases/neo/">Neo</a><ul><li><a href="/Facile-Documentation/use-cases/neo/credentials/">Credential Demo Setup</a></li>
+<li><a href="/Facile-Documentation/use-cases/neo/davinciflow/">Davinci Flow</a></li></ul></li></ul></li>
+<li><a href="/Facile-Documentation/tools/">Tools</a><ul><li><a href="/Facile-Documentation/tools/admin/">Admin Consoles</a></li>
+<li><a href="/Facile-Documentation/tools/dashboard/">Dashboard</a></li>
+<li><a href="/Facile-Documentation/tools/deployer/">Deployer</a></li>
+<li><a href="/Facile-Documentation/tools/release-logs/">Release Logs</a></li>
+<li><a href="/Facile-Documentation/tools/decoder/">Decoder</a></li>
+<li><a href="/Facile-Documentation/tools/utile/">Directory Utility</a></li>
+<li><a href="/Facile-Documentation/tools/smtp/">Outbound SMTP</a></li>
+<li><a href="/Facile-Documentation/tools/widget-flow/">Widget - Flow</a></li>
+<li><a href="/Facile-Documentation/tools/widget-redirectless/">Widget - Redirectless</a></li></ul></li>
+<li><a href="/Facile-Documentation/reference/">Reference</a><ul><li><a href="/Facile-Documentation/reference/release-notes/">Release Notes</a><ul><li><a href="/Facile-Documentation/reference/release-chart/">Chart</a></li>
+<li><a href="/Facile-Documentation/reference/release-repo/">GH Repo</a></li>
+<li><a href="/Facile-Documentation/reference/release-postman/">Postman</a></li></ul></li>
+<li><a href="/Facile-Documentation/reference/integration/">Integration</a><ul><li><a href="/Facile-Documentation/reference/integration/pingone/">PingOne</a><ul><li><a href="/Facile-Documentation/reference/integration/pingone/challenges/">Challenges</a></li>
+<li><a href="/Facile-Documentation/reference/integration/pingone/tech/">Technical</a></li>
+<li><a href="/Facile-Documentation/reference/integration/pingone/non-tech/">Non-Technical</a></li></ul></li></ul></li></ul></li></ul>
+      </div>
+    </div>
+    <div class="col">
+      <div class="content">
+        <p>Demonstrating next generation Identity - Verification and Wallet-based Credentials.</p>
+<p>Integration is done using <a href="./credentials">PingFederate</a> \ PingOne Neo \ PingID \ <a href="./davinciflow">PingOne Davinci</a></p>
+<h2>PingFederate</h2>
+<p>The demo is deliberately PingFed-centric - due to the Wallet being used is the PingID App. The majority of our PingID Customers
+are using PingFed as their IDP. Below are the pieces added to implement a plausible Credential demo using PingFed Policies.</p>
+<h4>IDP Adapters</h4>
+<table>
+<thead>
+<tr>
+<th>IDP Adapter Name</th>
+<th>Adapter Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cred - Internal Access</td>
+<td>PingOne Credentials</td>
+<td>Used to handle <code>InternalAccess</code> Credentials</td>
+</tr>
+<tr>
+<td>Cred - VerifiedEmployee</td>
+<td>PingOne Credentials</td>
+<td>Used to handle <code>VerifiedEmployee</code> Credentials</td>
+</tr>
+<tr>
+<td>Cred - VerifiedExternal</td>
+<td>PingOne Credentials</td>
+<td>Used to handle <code>VerifiedExternal</code> Credentials</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td><strong>Note:</strong> This separation is needed to handle the attribute mappings of each CredentialType</td>
+</tr>
+<tr>
+<td>DV (VerifiedEmployee) - GovID (Biographic)</td>
+<td>PingOne Davinci</td>
+<td>Maps ChainedAttributes from <code>Cred - VerifiedEmployee</code> into the DV Widget call</td>
+</tr>
+<tr>
+<td>DV (VerifiedExternal) - GovID (Biographic)</td>
+<td>PingOne Davinci</td>
+<td>Maps ChainedAttributes from <code>Cred - VerifiedExternal</code> into the DV Widget call<br>This is a child of <code>DV (VerifiedEmployee) - GovID (Biographic)</code></td>
+</tr>
+<tr>
+<td>PingOne Verify (Selfie from Credential)</td>
+<td>PingOne Verify</td>
+<td>Maps <code>referenceSelfie</code> ChainedAttribute from  <code>Cred - InternalAccess</code> into a Verify transaction</td>
+</tr>
+</tbody>
+</table>
+<h4>Fragments</h4>
+<table>
+<thead>
+<tr>
+<th>Fragment Name</th>
+<th>Components</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cred_InternalAccess</td>
+<td>Cred - InternalAccess</td>
+<td>Handles a InternalAccess Credential verification</td>
+</tr>
+<tr>
+<td>Cred_VerifiedEmployee</td>
+<td>Cred - VerifiedEmployee</td>
+<td>Handles a VerifiedEmployee Credential verification</td>
+</tr>
+<tr>
+<td>Cred_VerifiedExternal</td>
+<td>Cred - VerifiedExternal</td>
+<td>Handles a VerifiedExternal Credential verification</td>
+</tr>
+<tr>
+<td>Issue_InternalAccess_Employee</td>
+<td>Cred - VerifiedEmployee<br>DV (VerifiedEmployee) - GovID (Biographic)</td>
+<td>VerifiedEmployee --&gt; P1 Verify --&gt; InternalAccess</td>
+</tr>
+<tr>
+<td>Issue_InternalAccess_External</td>
+<td>Cred - VerifiedExternal<br>DV (VerifiedExternal) - GovID (Biographic)</td>
+<td>VerifiedExternal --&gt; P1 Verify --&gt; InternalAccess</td>
+</tr>
+<tr>
+<td>Verified_Credential</td>
+<td>Cred - InternalAccess<br>PingOne Protect<br>PingOne Verify (Selfie from Credential)</td>
+<td>Used to show <code>InternalAccess</code> as an AuthN source<br>If Protect != <code>LOW</code> do a Verify Selfie (<code>referenceSelfie</code> is on the <code>InternalAccess</code> credential)</td>
+</tr>
+</tbody>
+</table>
+<h4>Selectors</h4>
+<p>Because I'm a little lazy - I trigger these calls from Dashboard using the <code>PingLogon</code> OIDC client, using <code>acr_values</code> to select them.
+You'll see in the PF Policies that the fragments are added to the <code>Sample AuthN Context</code> Policy <strong>only</strong></p>
+<table>
+<thead>
+<tr>
+<th><code>acr_value</code></th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Issue_InternalAccess_Employee</td>
+<td><code>Cred - VerifiedEmployee</code> Presentation Request --&gt; <code>InternalAccess</code> Issuance</td>
+</tr>
+<tr>
+<td>Issue_InternalAccess_External</td>
+<td><code>Cred - VerifiedExternal</code> Presentation Request --&gt; <code>InternalAccess</code> Issuance</td>
+</tr>
+<tr>
+<td>Verified_Credential</td>
+<td><code>Cred - InternalAccess</code> used to authenticate and get an OIDC Code \ Token</td>
+</tr>
+</tbody>
+</table>
+<h2>PingOne</h2>
+<p>Neo capabilities exist as PingOne Services. Facile already deploys a CIAM-focused Environment (that contains PingOne Verify).
+However, The publically accessible Wallet exists in the PingID App - and you need to add PingID to an Environment to be able
+to use it.</p>
+<p>Since you can't add PingID to an Existing Env (and it would break the PingOne MFA integration with Facile) - I deploy a second
+Environment - <code>{releaseName}</code> - Neo to host the Credentials and PingID integration</p>
+<h4>Services</h4>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PingOne SSO</td>
+<td>Needed to create Users for Creds to be issued to</td>
+</tr>
+<tr>
+<td>PingID</td>
+<td>Adds the PID Mobile App that incudes the <code>digitalWalletAppId</code> for Neo</td>
+</tr>
+<tr>
+<td>PingOne Verify</td>
+<td>Default Policy to handle GovID + Selfie during <code>InternalAccess</code> issuance</td>
+</tr>
+<tr>
+<td>PingOne Creds</td>
+<td><code>VerifiedEmployee</code> (AUTOMATED - Issuance Rule)<br><code>VerifiedExternal</code> (AUTOMATED - Issuance Rule)<br><code>InternalAccess</code> (MANAGED - Davinci)</td>
+</tr>
+<tr>
+<td>PingOne Davinci</td>
+<td>A <a href="./davinciflow">Flow</a> that handles the Issuance experience for <code>Verified*</code> --&gt; <code>InternalAccess</code> Credentials</td>
+</tr>
+</tbody>
+</table>
+
+      </div>    
+    </div>
+  </div>
+</div>
+
+
+
+    
+  </main>  
+  </body>
+</html>
