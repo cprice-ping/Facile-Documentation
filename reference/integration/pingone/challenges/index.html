@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    
+    
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Project Facile documentation" />
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="icon" href="https://www.pingidentity.com/etc.clientlibs/settings/wcm/designs/pic6/assets/resources/images/favicon-new.png">
+    <link rel="stylesheet" type="text/css" href="/public/facile.css" />
+    <title>PingOne Challenges - Project Facile Documentation</title>
+
+<meta name="description" content="Documentation site for Project Facile">
+<meta name="robots" content="index,follow">
+<meta name="author" content="undefined">
+
+<link rel="canonical" href="https://docs.facile.pingidentity.cloud/reference/integration/pingone/challenges/">
+
+<meta property="og:title" content="PingOne Challenges - Project Facile Documentation">
+<meta property="og:type" content="article">
+
+<meta property="og:url" content="https://docs.facile.pingidentity.cloud/reference/integration/pingone/challenges/">
+<meta property="og:description" content="Documentation site for Project Facile">
+<meta property="og:image" content="https://www.pingidentity.com/content/dam/ping-6-2-assets/topnav-json-configs/Ping-Logo-2.svg">
+
+<meta name="twitter:card" content="summary">
+
+<meta name="twitter:url" content="https://docs.facile.pingidentity.cloud/reference/integration/pingone/challenges/">
+<meta name="twitter:title" content="PingOne Challenges - Project Facile Documentation">
+<meta name="twitter:description" content="Documentation site for Project Facile">
+<meta name="twitter:image" content="https://www.pingidentity.com/content/dam/ping-6-2-assets/topnav-json-configs/Ping-Logo-2.svg">
+
+
+  </head>
+  <body>
+  <main>
+    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
+      <img id='topBarLogo'
+        style="width:140px"
+        src="https://cdn.glitch.com/a766be66-dd8a-4fa9-adb0-382568f98cae%2Ffacile_logo.png?v=1630520846655"
+        alt="Project Facile Logo"
+      />
+      <span class="d-flex flex-row-reverse flex-fill fw-bold">Documentation - PingOne Challenges</span>
+    </div>
+  
+    
+
+
+<div class="wrapper">
+  <div class="row">
+    <div class="col-sm-3">
+      <div class="card shadow">
+        <h6 class="card-header">
+          Contents
+        </h6>
+        <ul><li><a href="/Facile-Documentation/">Home</a></li>
+<li><a href="/Facile-Documentation/deployment/">Deployment</a><ul><li><a href="/Facile-Documentation/deployment/pingone/">PingOne Config</a></li>
+<li><a href="/Facile-Documentation/deployment/auto/">Automatic</a></li>
+<li><a href="/Facile-Documentation/deployment/bespoke/">Bespoke</a></li></ul></li>
+<li><a href="/Facile-Documentation/use-cases/">Use Cases</a><ul><li><a href="/Facile-Documentation/use-cases/access/">Access</a><ul><li><a href="/Facile-Documentation/use-cases/access/headers/">Headers</a></li>
+<li><a href="/Facile-Documentation/use-cases/access/spa/">Single Page App</a></li>
+<li><a href="/Facile-Documentation/use-cases/access/consent-mgmt/">Consent Management</a></li>
+<li><a href="/Facile-Documentation/use-cases/access/consent-enforce/">Consent Enforcement</a></li></ul></li>
+<li><a href="/Facile-Documentation/use-cases/authn/">Authentication</a><ul><li><a href="/Facile-Documentation/use-cases/authn/simple/">Simple</a></li>
+<li><a href="/Facile-Documentation/use-cases/authn/risk-mfa/">Risk \ MFA</a></li>
+<li><a href="/Facile-Documentation/use-cases/authn/passwordless/">Passwordless</a></li>
+<li><a href="/Facile-Documentation/use-cases/authn/id-verify/">ID Verification</a></li>
+<li><a href="/Facile-Documentation/use-cases/authn/authn-api/">Authentication API</a></li>
+<li><a href="/Facile-Documentation/use-cases/authn/orchestration/">Orchestration</a></li></ul></li>
+<li><a href="/Facile-Documentation/use-cases/neo/">Neo</a><ul><li><a href="/Facile-Documentation/use-cases/neo/credentials/">Credential Demo Setup</a></li>
+<li><a href="/Facile-Documentation/use-cases/neo/davinciflow/">Davinci Flow</a></li></ul></li></ul></li>
+<li><a href="/Facile-Documentation/tools/">Tools</a><ul><li><a href="/Facile-Documentation/tools/admin/">Admin Consoles</a></li>
+<li><a href="/Facile-Documentation/tools/dashboard/">Dashboard</a></li>
+<li><a href="/Facile-Documentation/tools/deployer/">Deployer</a></li>
+<li><a href="/Facile-Documentation/tools/release-logs/">Release Logs</a></li>
+<li><a href="/Facile-Documentation/tools/decoder/">Decoder</a></li>
+<li><a href="/Facile-Documentation/tools/utile/">Directory Utility</a></li>
+<li><a href="/Facile-Documentation/tools/smtp/">Outbound SMTP</a></li>
+<li><a href="/Facile-Documentation/tools/widget-flow/">Widget - Flow</a></li>
+<li><a href="/Facile-Documentation/tools/widget-redirectless/">Widget - Redirectless</a></li></ul></li>
+<li><a href="/Facile-Documentation/reference/">Reference</a><ul><li><a href="/Facile-Documentation/reference/release-notes/">Release Notes</a><ul><li><a href="/Facile-Documentation/reference/release-chart/">Chart</a></li>
+<li><a href="/Facile-Documentation/reference/release-repo/">GH Repo</a></li>
+<li><a href="/Facile-Documentation/reference/release-postman/">Postman</a></li></ul></li>
+<li><a href="/Facile-Documentation/reference/integration/">Integration</a><ul><li><a href="/Facile-Documentation/reference/integration/pingone/">PingOne</a><ul><li><a href="/Facile-Documentation/reference/integration/pingone/challenges/">Challenges</a></li>
+<li><a href="/Facile-Documentation/reference/integration/pingone/tech/">Technical</a></li>
+<li><a href="/Facile-Documentation/reference/integration/pingone/non-tech/">Non-Technical</a></li></ul></li></ul></li></ul></li></ul>
+      </div>
+    </div>
+    <div class="col">
+      <div class="content">
+        <h2>PingOne challenges</h2>
+<p>PingOne doesn't accomplish the above - there's a number of problems with integrating with an application:</p>
+<ul>
+<li>Out-of-date Samples
+<ul>
+<li>Node libraries out of date - no Custom Domain support
+<ul>
+<li>Not updated in over a year</li>
+<li>Source not readily available to edit</li>
+</ul>
+</li>
+<li>There's a React app repo
+<ul>
+<li>No README to give any guidance</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Lack of CORS support
+<ul>
+<li>Requires Custom Domain -- P1 cookies used to access Flow \ User APIs</li>
+<li>Not all calls are accepted</li>
+</ul>
+</li>
+<li>SPA integrations
+<ul>
+<li>Back-channel token \ session revocation</li>
+<li>Back-channel token acquisition \ renewal
+<ul>
+<li>[I think] lack of iFrames kills a silent <code>Code</code> flow</li>
+<li>The Ping JS SDK specifically mentions using an iFrame for this - presumably it doesn't work</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>PingOne delivered pages
+<ul>
+<li>Slow - takes ~4s to render the login page
+<ul>
+<li>There's a bunch of tracking JS we use</li>
+</ul>
+</li>
+<li>Inconsistent branding
+<ul>
+<li>We add a Grey page and spinner in the middle of the authentication</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>All this interferes with any other Product
+<ul>
+<li>If you can't integrate the first step, things like Flow Manager are completely irrelevent as you can't get to them.</li>
+</ul>
+</li>
+<li>One-to-One Branding
+<ul>
+<li>Only one branded UX \ domain allowed per Env</li>
+<li>No CORS to support multiple DNS domains for Apps</li>
+</ul>
+</li>
+<li>There is no concept of SDLC in P1
+<ul>
+<li>No ability to re-create, clone, export and import environments</li>
+<li>How are teams expected to handle Dev \ Test \ Prod pipelines?</li>
+</ul>
+</li>
+</ul>
+
+      </div>    
+    </div>
+  </div>
+</div>
+
+
+
+    
+  </main>  
+  </body>
+</html>
