@@ -4,7 +4,8 @@
   "description": "Documentation for Project Facile",
   "scripts": {
     "start": "eleventy --serve",
-    "build": "NODE_ENV=production eleventy"
+    "build": "NODE_ENV=production eleventy",
+    "build-ghpages": "npx @11ty/eleventy --pathprefix=/Facile-Documentation/"
   },
   "dependencies": {
     "eleventy-plugin-seo": "^0.5.2",
@@ -17,16 +18,9 @@
   "engines": {
     "node": "12"
   },
-  "repository": {
-    "url": "https://glitch.com/edit/#!/glitch-hello-eleventy"
-  },
-  "glitch": {
-    "projectType": "generated_static"
-  },
   "license": "MIT",
   "keywords": [
-    "node",
-    "glitch",
-    "express"
+    "facile",
+    "documentation"
   ]
 }
