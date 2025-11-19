@@ -39,7 +39,31 @@ body {
   border-bottom: 1px solid var(--border-color);
   box-shadow: var(--shadow-sm);
   animation: slideDown 0.5s ease-out;
-  padding: 1rem 2rem;
+  padding: 0;
+  margin-bottom: 2rem;
+}
+
+.topbar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.25rem 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.topbar-container img {
+  width: 160px;
+  height: auto;
+  margin: 0;
+  box-shadow: none;
+}
+
+.topbar-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-left: auto;
 }
 
 /* Hero Section */
@@ -92,6 +116,46 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 2rem 3rem 2rem;
+}
+
+/* Sticky Navigation */
+.sticky-nav {
+  position: sticky;
+  top: 2rem;
+  align-self: flex-start;
+}
+
+/* Navigation Styling */
+.modern-card nav ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.modern-card nav ul ul {
+  padding-left: 1rem;
+  margin-top: 0.25rem;
+}
+
+.modern-card nav li {
+  margin-bottom: 0.5rem;
+}
+
+.modern-card nav a {
+  color: var(--text-secondary);
+  text-decoration: none;
+  display: block;
+  padding: 0.375rem 0.5rem;
+  border-radius: 0.375rem;
+  transition: all 0.2s ease;
+  font-size: 0.9375rem;
+}
+
+.modern-card nav a:hover {
+  color: var(--primary-color);
+  background: var(--bg-light);
+  text-decoration: none;
+  padding-left: 0.75rem;
 }
 
 /* Modern Card Styles */
@@ -323,5 +387,25 @@ blockquote {
   
   .modern-card-body {
     padding: 1.5rem;
+  }
+  
+  .topbar-container {
+    padding: 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+  
+  .topbar-container img {
+    width: 120px;
+  }
+  
+  .topbar-title {
+    margin-left: 0;
+    font-size: 1rem;
+  }
+  
+  .sticky-nav {
+    position: static;
   }
 }
