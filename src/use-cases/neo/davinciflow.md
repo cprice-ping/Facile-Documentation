@@ -16,7 +16,7 @@ To perform these functions, the PF Davinci IK is used to pass information from t
 
 ## Davinci Flow
 
-<img src="./DaVinci-Flow-67.png" alt="Davinci Flow" width="100%" height="auto">
+<img src="/public/DaVinciFlow-67.png" alt="Davinci Flow" width="100%" height="auto">
 
 ### Notes
 
