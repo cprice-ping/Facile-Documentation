@@ -11,5 +11,5 @@ Welcome to [Project Facile](https://facile.pingidentity.cloud) - an example of a
 
 ### Architecture
 
-![FacileArchitecture]('./public/facile-architecture.png' "Facile Architecture")
+![Facile Architecture diagram showing PingIdentity software components and services integrated within a Kubernetes environment, displaying interconnected modules for CIAM configuration including identity management, access control, and deployment infrastructure]('./public/facile-architecture.png')
 
