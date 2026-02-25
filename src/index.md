@@ -11,5 +11,5 @@ Welcome to [Project Facile](https://facile.pingidentity.cloud) - an example of a
 
 ### Architecture
 
-![FacileArchitecture](https://cdn.glitch.com/d73a8d8c-7227-47ee-8646-873dea902e5f%2FPing%20Solutions%20-%20Facile%20Architecture%20(2).png?v=1624644320082#architecture "Facile Architecture")
+![FacileArchitecture]('./public/facile-architecture.png' "Facile Architecture")
 
